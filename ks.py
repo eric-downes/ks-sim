@@ -1,4 +1,3 @@
-from numpy import pi
 from pde import PDE, ScalarField, CartesianGrid, MemoryStorage, plot_kymograph
 
 NX = 100 # number of cells in x
