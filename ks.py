@@ -11,7 +11,7 @@ def simulate_ks_1d(nx:int = NX,
                    state:ScalarField = None,
                    ) -> MemoryStorage:
     if not (isinstance(state, ScalarField) and state):
-        grid = CartesianGrid([[1, NX]], [NX], periodic=True)
+        grid = CartesianGrid([[1, nx]], [nx], periodic=True)
         state = ScalarField.from_expression(grid, "sin(x)")
         #state = ScalarField.random_uniform(grid)
     else:
