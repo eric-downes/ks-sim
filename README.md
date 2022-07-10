@@ -5,7 +5,7 @@ Q: Can Kuramoto-Sivashinsky dendrites dissapate?
 - Install [python3](https://www.python.org/downloads/) and check that it worked: 
 `which python` should return a path
 `python --version` should have a "3." in it; I'm using 3.10.4
-- Install `py-pde` package:
+- Install [py-pde](https://py-pde.readthedocs.io/en/latest/getting_started.html) package:
 `python -m pip install --upgrade py-pde`
 
 ## Runtime
