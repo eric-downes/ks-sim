@@ -1,5 +1,6 @@
 # ks-sim
-Q: Can Kuramoto-Sivashinsky dendrites dissapate?
+Q: Can Kuramoto-Sivashinsky dendrites dissipate?
+See [here](https://twitter.com/johncarlosbaez/status/1450461569414991882) for context.
 
 ## Setup on macOS/linux
 - Install [python3](https://www.python.org/downloads/) and check that it worked: 
